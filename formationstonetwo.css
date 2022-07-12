@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    line-height: 33px;
+    color: #4c4845;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+    position: relative;
+}
+
+/* common css */
+.container {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+/* common css End */
+
+/* header */
+header {
+    height: 95px;
+}
+
+header div {
+    display: inline-block;
+}
+
+.logo {
+    padding: 15px 0px !important;
+    padding-left: 0px;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar ul li {
+    padding: 11px 30px 11px 0px;
+
+}
+
+.navbar ul li a {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mingzat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #56524f;
+    background-color: transparent;
+    padding: 16px 0;
+    font-size: 16px;
+    border-bottom: solid 2px rgba(0, 0, 0, 0);
+    letter-spacing: 2px;
+}
+
+.navbar ul li a:hover {
+    color: #c9aa5d;
+}
+
+.navbar ul>li:last-of-type a {
+    font-family: 'FFDINWebBold', sans-serif;
+    background-image: url(./All_Images/formation-contact-call-icon.png);
+    background-position: left 11px;
+    background-size: 23px;
+    padding-left: 28px;
+    background-repeat: no-repeat;
+    font-weight: bolder;
+    color: #c9aa5d;
+    letter-spacing: 0px;
+}
+
+.navbar ul li:hover .hov {
+    opacity: 0.7;
+    /* background-color: aqua; */
+}
+
+/* section1: banner */
+
+.banner {
+    background-image: url("./All_Images/marbleroom.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 478px;
+    color: white;
+    position: relative;
+}
+
+.banner div {
+    position: absolute;
+    top: 47%;
+    transform: translatey(-50%);
+}
+
+.banner div h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-stretch: extra-condensed;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mingzat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.banner div p {
+    color: white;
+    font-weight: 200;
+
+}
+
+/* section2: granite-info */
+.granite-info>h3,.Marble-info>h3{
+    color: #c9aa5d;
+    margin-top: 95px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.granite-info span, .Marble-info span {
+    display: block;
+    text-align: center;
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100;
+    color: #56524f;
+
+}
+.granite-imgs,.Marble-imgs{
+    width: 1170px;
+    margin-top: 60px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap:25px;
+
+
+}
+.granite-imgs div div, .granite-imgss div div,
+.Marble-imgs div div{
+    font-size: 16px;
+    text-align: center;
+}
+
+.granite-imgss{
+    margin-bottom: 60px;
+    width:938px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;}
+
+.granite-imgs div:hover .hov-img {
+    opacity: 0.7;
+}
+.granite-imgss div:hover .hov-img {
+    opacity: 0.7;
+}
+/* section3: granite-info */
+.Marble-info>h3{
+    margin-top: 130px;
+}
